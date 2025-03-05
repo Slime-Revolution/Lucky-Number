@@ -1,0 +1,14 @@
+[package]
+name = "lottery"
+version = "1.0.0"
+authors = []
+
+[addresses]
+loterry_sc = "_"
+[dev-addresses]
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-framework.git", subdir = "aptos-framework", rev = "aptos-release-v1.12" }
+AptosTokenObjects = { git = "https://github.com/aptos-labs/aptos-framework.git", subdir = "aptos-token-objects", rev = "aptos-release-v1.12" }
+
+[dev-dependencies]
